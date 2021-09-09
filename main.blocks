@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="uN=$Z+][$uA1-*fTAp]c" x="-289" y="-1478"><statement name="HANDLER"><block type="controls_if" id="i{VZx+:O17JDCUE_QY=h"><mutation elseif="2" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="~6M+Nm/9FSb9%csVlj(y"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="LNXr`)gfqzn@[/pf5EoS"/></value><value name="B"><shadow type="math_number" id="A%PxO?(,Dk+NEg~k*olw"><field name="NUM">45</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="5;QB$[[L!4(~:H*/NF2^"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id=",iK!C+)57R!gK=_*_|*z"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="ltKL1,g$`I2eb-T(}2ky"/></value><value name="B"><shadow type="math_number" id="rx[o%qld8hS9`{AYB5|G"><field name="NUM">135</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="386[kk7=d_swsCrLsHJ]"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></statement><value name="IF2"><block type="logic_compare" id="n;M;W{siX:pWLovKJ;V;"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_heading" id="zFzucrWN5tMbolpJKL:3"/></value><value name="B"><shadow type="math_number" id="=_=%HDF*jyKj%A*^Dfs9"><field name="NUM">225</field></shadow></value></block></value><statement name="DO2"><block type="device_show_leds" id="bP%fNRHS!-q3hBhJunI8"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="C`WWP:@RgReCoS={m-s:"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></statement></block></statement></block><block type="device_heading" id="J+kO^#za+J8EL@lwM3HZ" disabled="true" x="125" y="537"/></xml>
